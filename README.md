@@ -21,11 +21,17 @@ At the top of the page is Title of the game "Rock Paper Scissors".
 The User vs Computer scoreboard sits below the title and has a functioning scoreboard.
 Below the scoreboard is the text returning after each go. This text describes the result of the game after each turn.
 
+
 Testing
 
+
 After getting my HTML, CSS and Javascript in order I made sure the website was functioning well. Some things I had to look out for is the functioning of the scoreboard. Originally it reset after each turn or once it reached a point. After fixing that, the text was off so some styling in CSS took care of that.
- I ran my HTML code through the official W3C validator and corrected my errors until it came back perfect. I took the same approach with my 
-  CSS code, except I ran that through the jigsaw w3 CSS validator.
+
+ I ran my HTML code through the official W3C validator and corrected my errors until it came back perfect. 
+<img = ./assets/CSS/Images/Screenshot 2021-12-10 at 09.25.47.png>
+
+ I took the same approach with my CSS code, except I ran that through the jigsaw w3 CSS validator.
+  <img = ./assets/CSS/Images/Screenshot 2021-12-10 at 09.24.54.png>
   I made sure the project works on different screen sizes and browsers.
 
 
