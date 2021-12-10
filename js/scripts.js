@@ -19,3 +19,39 @@ function convertToWord(letter) {
     if (letter === "p") return "Paper"
     return "Scissors";
 }
+
+function win(userChoice, computerChoice) {
+    const smallUserWord = "user".fontsize(3).sup();
+    const smallCompWord = "comp".fontsize(3).sup();
+    const userChoice_div = document.getElementById(userChoice);
+    userScore++;
+    userScore_span.innerHTML = userScore;
+    computerScore_span.innerHTML = computerScore;
+    result_p.innerHTML = `${convertToWord(userChoice)}${smallUserWord} beats ${converttoWord(computerChoice)}${smallCompWord}.`
+    userChoice_div.classList.add('green-glow');
+    setTimeout() => userChoice_div.classList.remove('green-glow'), 500);
+}
+
+function lose(userChoice, computerChoice) {
+    const smallUserWord = "user".fontsize(3).sup();
+    const smallCompWord = "comp".fontsize(3).sup();
+    const userChoice_div = document.getElementById(userChoice);
+    computerScore++;
+    userScore_span.innerHTML = userScore;
+    computerScore_span.innerHTML = computerScore;
+    result_p.innerHTML = `${convertToWord(userChoice)}${smallUserWord} beats ${converttoWord(computerChoice)}${smallCompWord}.`
+    userChoice_div.classList.add('green-glow');
+    setTimeout() => userChoice_div.classList.remove('green-glow'), 500);
+}
+
+function win(userChoice, computerChoice) {
+    const smallUserWord = "user".fontsize(3).sup();
+    const smallCompWord = "comp".fontsize(3).sup();
+    const userChoice_div = document.getElementById(userChoice);
+    userScore++;
+    userScore_span.innerHTML = userScore;
+    computerScore_span.innerHTML = computerScore;
+    result_p.innerHTML = `${convertToWord(userChoice)}${smallUserWord} beats ${converttoWord(computerChoice)}${smallCompWord}.`
+    userChoice_div.classList.add('green-glow');
+    setTimeout() => userChoice_div.classList.remove('green-glow'), 500);
+}
