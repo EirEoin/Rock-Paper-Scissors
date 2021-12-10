@@ -48,7 +48,44 @@ function draw(userChoice, computerChoice) {
     const smallUserWord = "user".fontsize(3).sup();
     const smallCompWord = "comp".fontsize(3).sup();
     const userChoice_div = document.getElementById(userChoice);
-    result_p.innerHTML = `${convertToWord(userChoice)}${smallUserWord} beats ${converttoWord(computerChoice)}${smallCompWord}.`
+    result_p.innerHTML = `${convertToWord(userChoice)}${smallUserWord} equals ${converttoWord(computerChoice)}${smallCompWord}. It's a draw!`
     userChoice_div.classList.add('grey-glow');
-    setTimeout(() => userChoice_div.classList.remove('green-glow'), 500);
+    setTimeout(() => userChoice_div.classList.remove('grey-glow'), 500);
 }
+function game(userChoice) {
+    const computerChoice = getComputerChoice();
+    switch (userChoice + computerChoice) {
+        case "rs":
+        case "pr":
+        case "sp":
+            win(UserChoice, computerChoice);
+            break;
+        case "rp":
+        case "ps":
+        case "sr":
+            lose (userChoice, computerChoice);
+            break;
+        case "rr":
+        case "pp":
+        case "ss":
+            draw(userChoice, computerChoice);
+            break;
+
+    }
+}
+
+function main() {
+    rock_div.addEventListener('click', function(){
+        game("r");
+    })
+
+    paper_div.addEventListener('click', function(){
+        game("p");
+    })
+
+    scissors_div.addEventListener('click', function(){
+        game("s");
+    })
+}
+
+main();
