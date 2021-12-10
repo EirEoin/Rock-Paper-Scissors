@@ -9,8 +9,8 @@ body {
 }
 
 header {
-    background: -webkit-linear-gradient(top, rgba(0, 128, 0, 0.418) 0%, rgba(0,128,0,0.4) 50%, rgba(0, 128, 0, 0.87) 100%)
-    padding: 20px;
+    background: -webkit-linear-gradient(top, rgba(0, 128, 0, 0.418) 0%, rgba(0,128,0,0.4) 50%, rgba(0, 128, 0, 0.87) 100%);
+    padding: 20px ;
 }
 
 header h1 {
@@ -88,3 +88,30 @@ backgroundL #f30;
     font-size: 20px;
     margin-top : 20px;
 }
+
+#wrapper {
+    position: absolute;
+    background: -webkit-linear-gradient(top, #eee 0%, #ccc 100% );
+    left: 30%;
+    width: 600px;
+    height: 600px;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 10px 10px 5px #222;
+}
+
+.green-glow {
+    border: 4px solid #4dcc7d;
+    box-shadow: 0 0 10px #d01115;
+}
+
+.red-glow {
+    border: 4px solid #fc121b;
+    box-shadow: 0 0 10px #d01115;
+}
+
+.grey-glow {
+    border: 4px solid #464647;
+    box-shadow: 0 0 10px #25292b;
+}
+
+
