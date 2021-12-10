@@ -80,7 +80,7 @@ header h1 {
 backgroundL #f30;
 
 
-#action-message {
+.action-message {
     text-align: center;
     color: #fff;
     font-family: sans-serif;
