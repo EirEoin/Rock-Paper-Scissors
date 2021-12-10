@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #90EE90;
+}
+
+header {
+    background: -webkit-linear-gradient(top, rgba(0, 128, 0, 0.418) 0%, rgba(0,128,0,0.4) 50%, rgba(0, 128, 0, 0.87) 100%)
+}
