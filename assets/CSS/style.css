@@ -223,6 +223,6 @@ header h1 {
 and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71)
 {
    #wrapper {
-       height: 150%;
+       height: 125%;
    }
 }
