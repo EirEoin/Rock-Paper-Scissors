@@ -175,3 +175,54 @@ header h1 {
         width: 100%;
     }
 }
+
+/* media querie iphone X and ipads */
+@media screen and (max-width: 480px) 
+
+{
+    #wrapper {
+        position: absolute;
+        width: 100%;
+        height: 118%;
+    }
+    .score-board {
+        position: relative;
+    }
+
+    .result{
+        font-size: 120%;
+    }
+
+    .body{
+        width: 100%;
+    }
+
+    .badge{
+        width: 100%;
+        height: 100%;
+    }
+
+    .user-label{
+        width: 100%;
+        height: 100%;
+    }
+
+    .computer-label{
+        width: 100%;
+        height: 100%;
+    }
+
+    .action-message{
+        height: 100%;
+        width: 100%;
+    }
+}
+
+/* media querie for iphone 5*/ 
+@media only screen and (min-device-width: 320px) and (max-device-width: 667px) 
+and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71)
+{
+   #wrapper {
+       height: 150%;
+   }
+}
